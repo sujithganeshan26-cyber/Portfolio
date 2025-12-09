@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Body{
+    background-image: url(background\ wallpaper.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+   text-decoration: none; 
+   padding: 20px; 
+}
+nav a:hover{
+    color: ghostwhite;
+    
+}
+#short{
+    color: rgb(49, 46, 216);
+}
+#about-sec{
+    padding: 20px 40px;
+     
+}
+#project-sec{
+   padding: 20px 20px; 
+   color:  rgb(49, 46, 216);
+   display: flex;
+   margin: 20px;
+}
+#sd1,#sd2,#sd3,#sd4{ 
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10;
+    color: black;
+}
+#sd1:hover,#sd2:hover,#sd3:hover,#sd4:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+    color: rgb(234, 59, 59);
+}
+#contect-sec{
+    padding: 20px 40px;
+    color: rgb(49, 46, 216) ;
+}
